@@ -2,9 +2,6 @@
 
 - I prototyped the UI and implemented a simple web application that allows users to create their account and create, edit and delete tasks. 
 
-### Link
-https://totvsrs-frontend-challenge.vercel.app/
-
 ### To get started
 - Clone the repository
 - yarn install 
@@ -19,6 +16,8 @@ https://totvsrs-frontend-challenge.vercel.app/
 
 ### Techs
 - ReactJs (Custom hooks, useContext, localstorage)
+- Redux
+- Immer
 - React-Router-Dom
 - Sass
 - SweetAlert2
