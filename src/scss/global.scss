@@ -1,0 +1,132 @@
+@use 'base';
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  color: base.$black;
+  background: base.$light-grey;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 5.5rem;
+  line-height: 6rem;
+  font-family: "Archivo Black", sans-serif;
+}
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 3.6rem;
+  line-height: 3.9rem;
+}
+
+h3 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+p {
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+button {
+  min-width: 12.5rem;
+  height: 4rem;
+
+  background: base.$green;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: none;
+
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.2rem;
+
+  &:hover {
+    cursor: pointer;
+    background: base.$orange;
+    transition: background ease-in 0.2;
+  }
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+  &:hover {
+    box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+select {
+  padding: 0.5rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+//animations
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animateUp {
+  animation-name: up;
+  animation-duration: 1000ms;
+  animation-fill-mode: backwards;
+}
+
+//alert -- needs !important in order to work
+.p_swal {
+  background: base.$light-grey !important;
+
+  max-width: 40rem !important;
+  min-width: 30rem !important;
+}
+
+.p_swal-deletePopUp {
+  background: base.$light-grey !important;
+  width: 30rem !important;
+}
+
+.h_swal {
+  font-family: "Lexend Mega", sans-serif;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.b_swal,
+.b_swal-cancel {
+  color: base.$black !important;
+  border-radius: 1rem;
+
+  outline: none;
+
+  min-width: 8rem !important;
+}
+
+.b_swal {
+  background-color: base.$orange !important ;
+}
+
+.b_swal-cancel {
+  background-color: base.$dark-grey !important;
+}
