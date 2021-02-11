@@ -29,21 +29,21 @@ https://www.figma.com/file/ULm3CNqUuPqXCspsUlGWTG/todo?node-id=101%3A157
 
 ## Images
 ### Login
-![image](https://user-images.githubusercontent.com/69584272/107228247-31e91a00-69fb-11eb-9283-759a245341cc.png)
+![Screenshot from 2021-02-11 20-44-33](https://user-images.githubusercontent.com/69584272/107713507-28390e00-6caa-11eb-8767-884c813b9e14.png)
 
 - If the credentials are wrong
 
 - ![image](https://user-images.githubusercontent.com/69584272/107228384-6066f500-69fb-11eb-93d2-d2767d9cc5df.png)
 
 ### Signup
-![image](https://user-images.githubusercontent.com/69584272/107228293-42999000-69fb-11eb-99cd-9a6ae6e88215.png)
+![Screenshot from 2021-02-11 20-46-25](https://user-images.githubusercontent.com/69584272/107713542-3b4bde00-6caa-11eb-9e35-5fe7a5acaab7.png)
 
 - If the email is alredy taken
 
 - ![image](https://user-images.githubusercontent.com/69584272/107228482-7aa0d300-69fb-11eb-80b4-de6594c78e57.png)
 
 ### Home Page after login
-![image](https://user-images.githubusercontent.com/69584272/107228022-e898ca80-69fa-11eb-8a5c-009766c28663.png)
+![Screenshot from 2021-02-11 20-47-34](https://user-images.githubusercontent.com/69584272/107713618-66363200-6caa-11eb-83d6-33970ad83e03.png)
 ![image](https://user-images.githubusercontent.com/69584272/107228039-f0586f00-69fa-11eb-828b-21e326a7502b.png)
 
 ### Editing a to do (Ex: just status)
