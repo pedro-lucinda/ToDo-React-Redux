@@ -1,6 +1,6 @@
 import produce from "immer";
 
-const INITIAL_STATE = JSON.parse(localStorage.getItem("todos"));
+const INITIAL_STATE = JSON.parse(localStorage.getItem("todos")) || [];
 
 export function todos(state = INITIAL_STATE, action) {
   return produce(state, (draft) => {
